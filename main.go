@@ -3,7 +3,7 @@ package main
 import (
 	"github.com/hashicorp/terraform/plugin"
 	"github.com/hashicorp/terraform/terraform"
-	"github.com/rincedd/terraform-provider-netcup/netcup"
+	"github.com/winkelchri/terraform-provider-netcup/netcup"
 )
 
 func main() {

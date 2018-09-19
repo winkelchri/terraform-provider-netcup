@@ -1,9 +1,10 @@
 package netcup
 
 import (
-	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/rincedd/terraform-provider-netcup/api"
 	"strings"
+
+	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/winkelchri/terraform-provider-netcup/api"
 )
 
 func dataSourceVServer() *schema.Resource {
